@@ -1,7 +1,7 @@
 import { Router, Request, Response, NextFunction } from 'express';
 import { IUserModel, UserModel } from '../models/User';
 import { Document, Error } from 'mongoose';
-import Utils from '../controllers/UtilsController';
+import Utils from '../helpers/Utils';
 import {
   ERROR_ON_SAVE_DOCUMENT,
   NO_CREDENTIALS_PROVIDED,
